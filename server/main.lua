@@ -10,5 +10,6 @@ ESX.RegisterServerCallback('esx_vehiclelock:requestPlayerCars', function(source,
 		['@plate'] = plate
 	}, function(result)
 		cb(result[1] ~= nil)
+
 	end)
 end)
